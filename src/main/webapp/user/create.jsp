@@ -1,12 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: duonghieu
-  Date: 03/10/2022
-  Time: 22:29
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
@@ -23,7 +15,7 @@
     <form method="post">
         <table border="1" cellpadding="5">
             <caption>
-                <h2>Add New User</h2>
+                <h2 style="color: blue">Add New User</h2>
             </caption>
             <tr>
                 <th>User Name:</th>
